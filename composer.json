@@ -1,0 +1,17 @@
+{
+    "name": "smsby/api",
+    "description": "Пакет для laravel реализующий взаимодействие с API Sms.by",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valeriy Bodyagin",
+            "email": "valera@antalika.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "smsby\\api\\": "src/"
+        }
+    },
+    "require": {}
+}
