@@ -1,2 +1,13 @@
 # laravel-api
-РџР°РєРµС‚ РґР»СЏ laravel СЂРµР°Р»РёР·СѓСЋС‰РёР№ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёРµ СЃ API sms.by
+Пакет для laravel реализующий взаимодействие с API sms.by.
+
+Пример использования можно посмотреть в ExampleController.php.
+
+Для подключения пакета добавте в composer.json проекта:
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/sms-by-code/laravel-api.git"
+    }
+  ]
+и выполните команду 'composer require smsby/api'.
